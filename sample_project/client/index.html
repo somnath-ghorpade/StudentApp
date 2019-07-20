@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>client</title>
+    <style>
+      @font-face {
+      font-family: 'Roboto';
+      src: local("Roboto Thin"), local("Roboto-Thin"), url("static/assets/fonts/roboto/Roboto-Thin.woff2");
+      font-weight: 100;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      src: local("Roboto Light"), local("Roboto-Light"), url("static/assets/fonts/roboto/Roboto-Light.woff2");
+      font-weight: 300;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      src: local("Roboto"), local("Roboto-Regular"), url("static/assets/fonts/roboto/Roboto-Regular.woff2");
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      src: local("Roboto Medium"), local("Roboto-Medium"), url("static/assets/fonts/roboto/Roboto-Medium.woff2");
+      font-weight: 500;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      src: local("Roboto Bold"), local("Roboto-Bold"), url("static/assets/fonts/roboto/Roboto-Bold.woff2");
+      font-weight: 700;
+    }
+
+    /* @font-face {font-family: 'Karma'; font-style: normal; font-weight: 500; src: local('Karma Medium'), local('Karma Medium'),url("<%= htmlWebpackPlugin.options.static %>/assets/fonts/Karma/Karma-Medium.woff2") format('woff2');}
+  @font-face {font-family: 'Karma'; font-style: normal; font-weight: 600; src: local('Karma SemiBold'), local('Karma SemiBold'), url("<%= htmlWebpackPlugin.options.static %>/assets/fonts/Karma/Karma-SemiBold.woff2") format('woff2');} */
+
+    @font-face {
+      font-family: 'FontAwesome';
+      /* src: url('static/assets/plugins/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0'); */
+      /* src: url('static/assets/plugins/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),  */
+      src: url('static/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2');
+      /* url('static/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), */
+      /* url('static/assets/plugins/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),  */
+      /* url('static/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg'); */
+      font-weight: normal;
+      font-style: normal;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="/dist/build.js"></script>
+     <script src="static/assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="static/assets/js/common.js"></script>
+  </body>
+</html>

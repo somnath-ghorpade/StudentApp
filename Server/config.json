@@ -1,0 +1,12 @@
+{
+     "DBNAME": "MasterDB",
+     "SMTPHOST": "10.1.70.100",
+     "SMTPPORT": 25,
+    "MONGODSN": "localhost:27017",
+    "serverPort": "4887",
+    "logFilePath": "logs/logFile.log",
+    "isProduction": "false",
+    "log_maxBackupCount": "2",
+    "log_maxAgeForBackupFiles": "2",
+    "log_maxBackupFileSize": "1"
+}
